@@ -228,8 +228,10 @@ h3 {
 }
 .containers {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: calc(100% - 752px);
+  gap: 32px;
+  margin-left: 25%;
 }
 .container {
   width: 148px;
