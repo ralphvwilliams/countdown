@@ -1,23 +1,4 @@
 <template>
-  <!-- <div class="img">
-    <img src="@/assets/pattern-hills.svg" alt="" />
-  </div>
-  <div class="second-img">
-    <img src="@/assets/bg-stars.svg" alt="" />
-  </div>
-
-  <div class="head">
-    <h3>WE'RE LAUNCHING SOON</h3>
-  </div>
-  <div class="wrapper">
-    <div class="time-wrapper">
-      <div class="time" v-for="prop in Object.entries(time)">
-        <p class="value">{{ prop[1] }}</p>
-        <p class="key">{{ prop[0] }}</p>
-      </div>
-    </div>
-  </div> -->
-
   <div class="background">
     <figure class="bgimage-1">
       <img src="@/assets/bg-stars.svg" alt="" />
@@ -98,7 +79,7 @@ export default {
   },
   methods: {
     setTime() {
-      const finalDate = new Date('Aug 5, 2022 15:37:25').getTime();
+      const finalDate = new Date('Jan 1, 2023 00:00:00').getTime();
       setInterval(() => {
         let now = new Date().getTime();
         let distance = finalDate - now;
@@ -133,70 +114,6 @@ export default {
 </script>
 
 <style scoped>
-/* .img {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.img img {
-  width: 100%;
-}
-
-.second-img {
-  position: absolute;
-}
-.value {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 71px;
-
-  text-align: center;
-  letter-spacing: -2.4px;
-
-  color: #fb5e84;
-}
-
-.wrapper {
-  text-align: center;
-  margin-top: 105px;
-}
-
-.time-wrapper {
-  display: flex;
-  gap: 60px;
-  text-align: center;
-  margin-left: 35%;
-}
-
-h3 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 29px;
-  text-align: center;
-  letter-spacing: 7.5px;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-
-.head {
-  margin-top: 132px;
-}
-
-.key {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 5.91875px;
-  text-transform: uppercase;
-  color: #8385a9;
-} */
-
 * {
   margin: 0;
   padding: 0;
