@@ -218,10 +218,6 @@ hr {
   cursor: pointer;
 }
 
-.socials img:hover {
-  background-color: #fb5e84;
-}
-
 @media screen and (max-width: 768px) {
   .background {
     overflow: hidden;
